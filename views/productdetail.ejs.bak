@@ -1,0 +1,8 @@
+<div class="container" ng-controller="ProductdetailController">
+Product Details!!!!
+	<p>ID: {{prod._id}}</p>
+	<p>Title: {{prod.title}}</p>
+	<p>Description: {{prod.description}}</p>
+	<p>Style: {{prod.style}}</p>
+</div>
+<a href="/#/products">Back</a>
